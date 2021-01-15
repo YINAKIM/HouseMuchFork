@@ -23,7 +23,35 @@
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/vendors.min.css">
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/charts/apexcharts.css">
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/extensions/toastr.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/editors/quill/katex.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/editors/quill/monokai-sublime.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/editors/quill/quill.snow.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/forms/select/select2.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Inconsolata&amp;family=Roboto+Slab&amp;family=Slabo+27px&amp;family=Sofia&amp;family=Ubuntu+Mono&amp;display=swap">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/calendars/fullcalendar.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/tables/datatable/datatables.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/tables/datatable/extensions/dataTables.checkboxes.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/tables/datatable/responsive.bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/extensions/nouislider.min.css">
+
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/forms/wizard/bs-stepper.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/forms/spinner/jquery.bootstrap-touchspin.css">
+ 
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/extensions/swiper.min.css">
+       
+	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/tables/datatable/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/tables/datatable/buttons.bootstrap4.min.css">
+   
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/pickers/pickadate/pickadate.css">   
+
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/vendors/css/maps/leaflet.min.css">
+
     <!-- END: Vendor CSS-->
+    
 
     <!-- BEGIN: Theme CSS-->
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/bootstrap.css">
@@ -38,11 +66,53 @@
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/pages/dashboard-ecommerce.css">
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/plugins/charts/chart-apex.css">
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/plugins/extensions/ext-component-toastr.css">
-    <!-- END: Page CSS-->
+ 	
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/plugins/forms/form-quill-editor.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/pages/app-email.css">
 
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/pages/app-chat.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/pages/app-chat-list.css">
+   
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/plugins/forms/pickers/form-flat-pickr.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/pages/app-calendar.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/plugins/forms/form-validation.css">
+    
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/pages/app-invoice-list.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/pages/app-invoice.css">
+    
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/plugins/extensions/ext-component-sliders.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/pages/app-ecommerce.css">
+
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/plugins/forms/pickers/form-pickadate.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/plugins/forms/form-wizard.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/plugins/forms/form-number-input.css">
+  
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/pages/app-ecommerce-details.css">
+    
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/pages/app-user.css">
+ 
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/pages/page-profile.css">
+  
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/pages/page-pricing.css">  
+
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/pages/page-blog.css">
+
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/pages/ui-colors.css">
+  
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/pages/ui-feather.css">
+
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/app-assets/css/plugins/maps/map-leaflet.css">
+      
+    <!-- END: Page CSS-->
+    
     <!-- BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/assets/css/style.css">
     <!-- END: Custom CSS-->
+
+	<!-- 비교 -->
+
+
+
 
 </head>
 <!-- END: Head-->
@@ -60,10 +130,9 @@
                     <li class="nav-item"><a class="nav-link menu-toggle" href="javascript:void(0);"><i class="ficon" data-feather="menu"></i></a></li>
                 </ul>
                 <ul class="nav navbar-nav bookmark-icons">
-                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#" data-toggle="tooltip" data-placement="top" title="Email"><i class="ficon" data-feather="mail"></i></a></li>
-                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#" data-toggle="tooltip" data-placement="top" title="Chat"><i class="ficon" data-feather="message-square"></i></a></li>
-                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#" data-toggle="tooltip" data-placement="top" title="Calendar"><i class="ficon" data-feather="calendar"></i></a></li>
-                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#" data-toggle="tooltip" data-placement="top" title="Todo"><i class="ficon" data-feather="check-square"></i></a></li>
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="<c:url value='/sample/email.do'/>" data-toggle="tooltip" data-placement="top" title="Email"><i class="ficon" data-feather="mail"></i></a></li>
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="<c:url value='/sample/chat.do'/>" data-toggle="tooltip" data-placement="top" title="Chat"><i class="ficon" data-feather="message-square"></i></a></li>
+                    <li class="nav-item d-none d-lg-block"><a class="nav-link" href="<c:url value='/sample/calendar.do'/>" data-toggle="tooltip" data-placement="top" title="Calendar"><i class="ficon" data-feather="calendar"></i></a></li>
                 </ul>
                 <ul class="nav navbar-nav">
                     <li class="nav-item d-none d-lg-block"><a class="nav-link bookmark-star"><i class="ficon text-warning" data-feather="star"></i></a>
@@ -295,153 +364,154 @@
         <div class="shadow-bottom"></div>
         <div class="main-menu-content">
             <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
-                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="Dashboards">Dashboards</span><span class="badge badge-light-warning badge-pill ml-auto mr-1">2</span></a>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="Dashboards">이름~</span><span class="badge badge-light-warning badge-pill ml-auto mr-1">765</span></a>
                     <ul class="menu-content">
-                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Analytics">Analytics</span></a>
+                    
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/Analytics.do'/>  "><i data-feather="circle"></i><span class="menu-item" data-i18n="Analytics">Analytics</span></a>
                         </li>
-                        <li class="active"><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="eCommerce">eCommerce</span></a>
+                        
+                        <li class="d-flex align-items-center"><a class="d-flex align-items-center" href="<c:url value='/sample/eCommerce.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="eCommerce">eCommerce</span></a>
                         </li>
+                        
                     </ul>
                 </li>
-                <li class=" navigation-header"><span data-i18n="Apps &amp; Pages">Apps &amp; Pages</span><i data-feather="more-horizontal"></i>
+                
+                <!-- navi 시작 -->
+                
+                <li class=" navigation-header"><span data-i18n="Apps &amp; Pages">간죽 &amp; 간살 </span><i data-feather="more-horizontal"></i>
                 </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="mail"></i><span class="menu-title text-truncate" data-i18n="Email">Email</span></a>
+              
+                <li class=" nav-item"><a class="d-flex align-items-center" href="<c:url value='/sample/email.do'/>"><i data-feather="mail"></i><span class="menu-title text-truncate" data-i18n="Email">Email</span></a>
                 </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="message-square"></i><span class="menu-title text-truncate" data-i18n="Chat">Chat</span></a>
+               
+                <li class=" nav-item"><a class="d-flex align-items-center" href="<c:url value='/sample/chat.do'/>"><i data-feather="message-square"></i><span class="menu-title text-truncate" data-i18n="Chat">Chat</span></a>
                 </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="check-square"></i><span class="menu-title text-truncate" data-i18n="Todo">Todo</span></a>
+               
+                <li class=" nav-item"><a class="d-flex align-items-center" href="<c:url value='/sample/calendar.do'/>"><i data-feather="calendar"></i><span class="menu-title text-truncate" data-i18n="Calendar">Calendar</span></a>
                 </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="calendar"></i><span class="menu-title text-truncate" data-i18n="Calendar">Calendar</span></a>
-                </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="grid"></i><span class="menu-title text-truncate" data-i18n="Kanban">Kanban</span></a>
-                </li>
+               
                 <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="file-text"></i><span class="menu-title text-truncate" data-i18n="Invoice">Invoice</span></a>
                     <ul class="menu-content">
-                        <li><a class="d-flex align-items-center" href="app-invoice-list.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="List">List</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/app-invoice-list.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="List">List</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="app-invoice-preview.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Preview">Preview</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/app-invoice-preview.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Preview">Preview</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="app-invoice-edit.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Edit">Edit</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/app-invoice-edit.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Edit">Edit</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="app-invoice-add.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Add">Add</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/app-invoice-add.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Add">Add</span></a>
                         </li>
                     </ul>
                 </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="app-file-manager.html"><i data-feather="save"></i><span class="menu-title text-truncate" data-i18n="File Manager">File Manager</span></a>
-                </li>
+                
                 <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="shopping-cart"></i><span class="menu-title text-truncate" data-i18n="eCommerce">eCommerce</span></a>
                     <ul class="menu-content">
-                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Shop">Shop</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/app-ecommerce-shop.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Shop">Shop</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Details">Details</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/app-ecommerce-details.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Details">Details</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Wish List">Wish List</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/app-ecommerce-wishlist.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Wish List">Wish List</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Checkout">Checkout</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/app-ecommerce-checkout.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Checkout">Checkout</span></a>
                         </li>
                     </ul>
                 </li>
+                
+                
                 <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="user"></i><span class="menu-title text-truncate" data-i18n="User">User</span></a>
                     <ul class="menu-content">
-                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="List">List</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/app-user-list.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="List">List</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="View">View</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/app-user-view.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="View">View</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Edit">Edit</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/app-user-edit.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Edit">Edit</span></a>
                         </li>
                     </ul>
                 </li>
+                
+                
                 <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="file-text"></i><span class="menu-title text-truncate" data-i18n="Pages">Pages</span></a>
                     <ul class="menu-content">
                         <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Authentication">Authentication</span></a>
                             <ul class="menu-content">
-                                <li><a class="d-flex align-items-center" href="#" target="_blank"><span class="menu-item" data-i18n="LoginV1">Login v1</span></a>
+                                <li><a class="d-flex align-items-center" href="<c:url value='/sample/page-auth-login-v1.do'/>" target="_blank"><span class="menu-item" data-i18n="LoginV1">Login v1</span></a>
                                 </li>
-                                <li><a class="d-flex align-items-center" href="#" target="_blank"><span class="menu-item" data-i18n="LoginV2">Login v2</span></a>
+                                
+                                <li><a class="d-flex align-items-center" href="<c:url value='/sample/page-auth-register-v1.do'/>" target="_blank"><span class="menu-item" data-i18n="RegisterV1">Register v1</span></a>
                                 </li>
-                                <li><a class="d-flex align-items-center" href="#" target="_blank"><span class="menu-item" data-i18n="RegisterV1">Register v1</span></a>
+                               
+                                <li><a class="d-flex align-items-center" href="<c:url value='/sample/page-auth-forgot-password-v1.do'/>" target="_blank"><span class="menu-item" data-i18n="ForgotPasswordV1">Forgot Password v1</span></a>
                                 </li>
-                                <li><a class="d-flex align-items-center" href="#" target="_blank"><span class="menu-item" data-i18n="RegisterV2">Register v2</span></a>
+                                
+                                <li><a class="d-flex align-items-center" href="<c:url value='/sample/page-auth-reset-password-v1.do'/>" target="_blank"><span class="menu-item" data-i18n="ResetPasswordV1">Reset Password v1</span></a>
                                 </li>
-                                <li><a class="d-flex align-items-center" href="#" target="_blank"><span class="menu-item" data-i18n="ForgotPasswordV1">Forgot Password v1</span></a>
-                                </li>
-                                <li><a class="d-flex align-items-center" href="#" target="_blank"><span class="menu-item" data-i18n="ForgotPasswordV2">Forgot Password v2</span></a>
-                                </li>
-                                <li><a class="d-flex align-items-center" href="#" target="_blank"><span class="menu-item" data-i18n="ResetPasswordV1">Reset Password v1</span></a>
-                                </li>
-                                <li><a class="d-flex align-items-center" href="#" target="_blank"><span class="menu-item" data-i18n="ResetPasswordV2">Reset Password v2</span></a>
-                                </li>
+                                
                             </ul>
                         </li>
-                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Account Settings">Account Settings</span></a>
+                        
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/page-account-settings.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Account Settings">Account Settings</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="page-profile.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Profile">Profile</span></a>
+                        
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/page-profile.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Profile">Profile</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="page-faq.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="FAQ">FAQ</span></a>
+                        
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/page-faq.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="FAQ">FAQ</span></a>
+                        </li>                      
+                        
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/page-pricing.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Pricing">Pricing</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="page-knowledge-base.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Knowledge Base">Knowledge Base</span></a>
-                        </li>
-                        <li><a class="d-flex align-items-center" href="page-pricing.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Pricing">Pricing</span></a>
-                        </li>
+                        
                         <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Blog">Blog</span></a>
                             <ul class="menu-content">
-                                <li><a class="d-flex align-items-center" href="page-blog-list.html"><span class="menu-item" data-i18n="List">List</span></a>
+                                <li><a class="d-flex align-items-center" href="<c:url value='/sample/page-blog-list.do'/>"><span class="menu-item" data-i18n="List">List</span></a>
                                 </li>
-                                <li><a class="d-flex align-items-center" href="page-blog-detail.html"><span class="menu-item" data-i18n="Detail">Detail</span></a>
+                                <li><a class="d-flex align-items-center" href="<c:url value='/sample/page-blog-detail.do'/>"><span class="menu-item" data-i18n="Detail">Detail</span></a>
                                 </li>
-                                <li><a class="d-flex align-items-center" href="page-blog-edit.html"><span class="menu-item" data-i18n="Edit">Edit</span></a>
+                                <li><a class="d-flex align-items-center" href="<c:url value='/sample/page-blog-edit.do'/>"><span class="menu-item" data-i18n="Edit">Edit</span></a>
                                 </li>
                             </ul>
                         </li>
+                        
+                        
                         <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Mail Template">Mail Template</span></a>
                             <ul class="menu-content">
-                                <li><a class="d-flex align-items-center" href="https://pixinvent.com/demo/vuexy-mail-template/mail-welcome.html" target="_blank"><span class="menu-item" data-i18n="Welcome">Welcome</span></a>
-                                </li>
-                                <li><a class="d-flex align-items-center" href="https://pixinvent.com/demo/vuexy-mail-template/mail-reset-password.html" target="_blank"><span class="menu-item" data-i18n="Reset Password">Reset Password</span></a>
-                                </li>
-                                <li><a class="d-flex align-items-center" href="https://pixinvent.com/demo/vuexy-mail-template/mail-verify-email.html" target="_blank"><span class="menu-item" data-i18n="Verify Email">Verify Email</span></a>
-                                </li>
-                                <li><a class="d-flex align-items-center" href="https://pixinvent.com/demo/vuexy-mail-template/mail-deactivate-account.html" target="_blank"><span class="menu-item" data-i18n="Deactivate Account">Deactivate Account</span></a>
-                                </li>
+                             
                                 <li><a class="d-flex align-items-center" href="https://pixinvent.com/demo/vuexy-mail-template/mail-invoice.html" target="_blank"><span class="menu-item" data-i18n="Invoice">Invoice</span></a>
                                 </li>
-                                <li><a class="d-flex align-items-center" href="https://pixinvent.com/demo/vuexy-mail-template/mail-promotional.html" target="_blank"><span class="menu-item" data-i18n="Promotional">Promotional</span></a>
-                                </li>
+                    
                             </ul>
                         </li>
+                        
                         <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Miscellaneous">Miscellaneous</span></a>
                             <ul class="menu-content">
-                                <li><a class="d-flex align-items-center" href="page-misc-coming-soon.html" target="_blank"><span class="menu-item" data-i18n="Coming Soon">Coming Soon</span></a>
-                                </li>
-                                <li><a class="d-flex align-items-center" href="page-misc-not-authorized.html" target="_blank"><span class="menu-item" data-i18n="Not Authorized">Not Authorized</span></a>
-                                </li>
-                                <li><a class="d-flex align-items-center" href="page-misc-under-maintenance.html" target="_blank"><span class="menu-item" data-i18n="Maintenance">Maintenance</span></a>
-                                </li>
-                                <li><a class="d-flex align-items-center" href="page-misc-error.html" target="_blank"><span class="menu-item" data-i18n="Error">Error</span></a>
+                                <li><a class="d-flex align-items-center" href="<c:url value='/sample/page-misc-error.do'/>" target="_blank"><span class="menu-item" data-i18n="Error">Error</span></a>
                                 </li>
                             </ul>
                         </li>
+                        
+                        
                     </ul>
                 </li>
+   
+                
                 <li class=" navigation-header"><span data-i18n="User Interface">User Interface</span><i data-feather="more-horizontal"></i>
                 </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="ui-typography.html"><i data-feather="type"></i><span class="menu-title text-truncate" data-i18n="Typography">Typography</span></a>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="<c:url value='/sample/ui-typography.do'/>"><i data-feather="type"></i><span class="menu-title text-truncate" data-i18n="Typography">Typography</span></a>
                 </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="ui-colors.html"><i data-feather="droplet"></i><span class="menu-title text-truncate" data-i18n="Colors">Colors</span></a>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="<c:url value='/sample/ui-colors.do'/>"><i data-feather="droplet"></i><span class="menu-title text-truncate" data-i18n="Colors">Colors</span></a>
                 </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="ui-feather.html"><i data-feather="eye"></i><span class="menu-title text-truncate" data-i18n="Feather">Feather</span></a>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="<c:url value='/sample/ui-feather.do'/>"><i data-feather="eye"></i><span class="menu-title text-truncate" data-i18n="Feather">Feather</span></a>
                 </li>
                 <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="credit-card"></i><span class="menu-title text-truncate" data-i18n="Card">Card</span><span class="badge badge-light-success badge-pill ml-auto mr-1">New</span></a>
                     <ul class="menu-content">
-                        <li><a class="d-flex align-items-center" href="card-basic.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Basic">Basic</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/card-basic.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Basic">Basic</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="card-advance.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Advance">Advance</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/card-advance.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Advance">Advance</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="card-statistics.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Statistics">Statistics</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/card-statistics.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Statistics">Statistics</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="card-analytics.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Analytics">Analytics</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/card-analytics.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Analytics">Analytics</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="card-actions.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Card Actions">Card Actions</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/card-actions.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Card Actions">Card Actions</span></a>
                         </li>
                     </ul>
                 </li>
@@ -543,47 +613,47 @@
                 </li>
                 <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="copy"></i><span class="menu-title text-truncate" data-i18n="Form Elements">Form Elements</span></a>
                     <ul class="menu-content">
-                        <li><a class="d-flex align-items-center" href="form-input.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Input">Input</span></a>
+                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Input">Input</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="form-input-groups.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Input Groups">Input Groups</span></a>
+                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Input Groups">Input Groups</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="form-input-mask.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Input Mask">Input Mask</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/form-input-mask.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Input Mask">요기 확인해주세용!!!</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="form-textarea.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Textarea">Textarea</span></a>
+                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Textarea">Textarea</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="form-checkbox.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Checkbox">Checkbox</span></a>
+                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Checkbox">Checkbox</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="form-radio.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Radio">Radio</span></a>
+                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Radio">Radio</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="form-switch.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Switch">Switch</span></a>
+                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Switch">Switch</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="form-select.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Select">Select</span></a>
+                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Select">Select</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="form-number-input.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Number Input">Number Input</span></a>
+                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Number Input">Number Input</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="form-file-uploader.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="File Uploader">File Uploader</span></a>
+                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="File Uploader">File Uploader</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="form-quill-editor.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Quill Editor">Quill Editor</span></a>
+                        <li><a class="d-flex align-items-center" href="#"><i data-feather="circle"></i><span class="menu-item" data-i18n="Quill Editor">Quill Editor</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="form-date-time-picker.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Date &amp; Time Picker">Date &amp; Time Picker</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/form-date-time-picker.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Date &amp; Time Picker">Date &amp; Time Picker 봅시다!!!</span></a>
                         </li>
                     </ul>
                 </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="form-layout.html"><i data-feather="box"></i><span class="menu-title text-truncate" data-i18n="Form Layout">Form Layout</span></a>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="<c:url value='/sample/form-layout.do'/>"><i data-feather="box"></i><span class="menu-title text-truncate" data-i18n="Form Layout">폼 레이아웃 ~~ </span></a>
                 </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="form-wizard.html"><i data-feather="package"></i><span class="menu-title text-truncate" data-i18n="Form Wizard">Form Wizard</span></a>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="<c:url value='/sample/form-wizard.do'/>"><i data-feather="package"></i><span class="menu-title text-truncate" data-i18n="Form Wizard">Form Wizard ~~폼~</span></a>
                 </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="form-validation.html"><i data-feather="check-circle"></i><span class="menu-title text-truncate" data-i18n="Form Validation">Form Validation</span></a>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="<c:url value='/sample/form-validation.do'/>"><i data-feather="check-circle"></i><span class="menu-title text-truncate" data-i18n="Form Validation">~폼 Validation~</span></a>
                 </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="form-repeater.html"><i data-feather="rotate-cw"></i><span class="menu-title text-truncate" data-i18n="Form Repeater">Form Repeater</span></a>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="<c:url value='/sample/form-repeater.do'/>"><i data-feather="rotate-cw"></i><span class="menu-title text-truncate" data-i18n="Form Repeater">Form Repeater</span></a>
                 </li>
                 <li class=" nav-item"><a class="d-flex align-items-center" href="table-bootstrap.html"><i data-feather="server"></i><span class="menu-title text-truncate" data-i18n="Table">Table</span></a>
                 </li>
                 <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="grid"></i><span class="menu-title text-truncate" data-i18n="Datatable">Datatable</span></a>
                     <ul class="menu-content">
-                        <li><a class="d-flex align-items-center" href="table-datatable-basic.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Basic">Basic</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='table-datatable-basic.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Basic">Basic</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="table-datatable-advanced.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Advanced">Advanced</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='table-datatable-advanced.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Advanced">Advanced</span></a>
                         </li>
                     </ul>
                 </li>
@@ -593,13 +663,13 @@
                 </li>
                 <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="pie-chart"></i><span class="menu-title text-truncate" data-i18n="Charts">Charts</span><span class="badge badge-light-danger badge-pill ml-auto mr-2">2</span></a>
                     <ul class="menu-content">
-                        <li><a class="d-flex align-items-center" href="chart-apex.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Apex">Apex</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/chart-apex.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Apex">Apex</span></a>
                         </li>
-                        <li><a class="d-flex align-items-center" href="chart-chartjs.html"><i data-feather="circle"></i><span class="menu-item" data-i18n="Chartjs">Chartjs</span></a>
+                        <li><a class="d-flex align-items-center" href="<c:url value='/sample/chart-chartjs.do'/>"><i data-feather="circle"></i><span class="menu-item" data-i18n="Chartjs">Chartjs</span></a>
                         </li>
                     </ul>
                 </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="maps-leaflet.html"><i data-feather="map"></i><span class="menu-title text-truncate" data-i18n="Leaflet Maps">Leaflet Maps</span></a>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="<c:url value='/sample/maps-leaflet.do'/>"><i data-feather="map"></i><span class="menu-title text-truncate" data-i18n="Leaflet Maps">Leaflet Maps</span></a>
                 </li>
                 <li class=" navigation-header"><span data-i18n="Misc">Misc</span><i data-feather="more-horizontal"></i>
                 </li>
@@ -628,9 +698,4 @@
     </div>
     <!-- END: Main Menu-->
     
-	<!-- START : Content -->
-	
-    <!-- END: Content-->
-    
-    <div class="sidenav-overlay"></div>
-    <div class="drag-target"></div>
+
